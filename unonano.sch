@@ -6895,9 +6895,9 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <part name="J17" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
 <part name="J18" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
 <part name="J19" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
-<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
-<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
-<part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="ICP_FOR_BIG" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="ICP_FOR_SMALL" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="ARDUINO_ISP" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6995,15 +6995,15 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <attribute name="VALUE" x="195.58" y="-2.286" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="195.58" y="13.208" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SJ1" gate="1" x="226.06" y="50.8" smashed="yes">
+<instance part="ICP_FOR_BIG" gate="1" x="226.06" y="50.8" smashed="yes">
 <attribute name="NAME" x="223.52" y="53.34" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="46.99" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ2" gate="1" x="226.06" y="43.18" smashed="yes">
+<instance part="ICP_FOR_SMALL" gate="1" x="226.06" y="43.18" smashed="yes">
 <attribute name="NAME" x="223.52" y="45.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="39.37" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ3" gate="1" x="226.06" y="35.56" smashed="yes">
+<instance part="ARDUINO_ISP" gate="1" x="226.06" y="35.56" smashed="yes">
 <attribute name="NAME" x="223.52" y="38.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="31.75" size="1.778" layer="96"/>
 </instance>
@@ -7659,13 +7659,6 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <label x="193.04" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PWM_R" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D10"/>
-<wire x1="114.3" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-<label x="116.84" y="121.92" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="VIN" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="VIN"/>
@@ -7798,7 +7791,7 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <label x="223.52" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="ICP_FOR_BIG" gate="1" pin="1"/>
 <wire x1="220.98" y1="50.8" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
 <label x="208.28" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -7916,9 +7909,14 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <label x="193.04" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ3" gate="1" pin="1"/>
+<pinref part="ARDUINO_ISP" gate="1" pin="1"/>
 <wire x1="220.98" y1="35.56" x2="218.44" y2="35.56" width="0.1524" layer="91"/>
 <label x="213.36" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D10"/>
+<wire x1="114.3" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
+<label x="116.84" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IOREF" class="0">
@@ -7981,27 +7979,6 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <junction x="190.5" y="119.38"/>
 </segment>
 </net>
-<net name="TNYRST" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="NRES/PB5"/>
-<wire x1="116.84" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
-<label x="119.38" y="12.7" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TNY04" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB4"/>
-<wire x1="116.84" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
-<label x="119.38" y="10.16" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TNY03" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB3"/>
-<wire x1="116.84" y1="7.62" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
-<label x="119.38" y="7.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="TINY04" class="0">
 <segment>
 <pinref part="J14" gate="G$1" pin="3"/>
@@ -8013,6 +7990,11 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <wire x1="170.18" y1="7.62" x2="167.64" y2="7.62" width="0.1524" layer="91"/>
 <junction x="167.64" y="7.62"/>
 <label x="162.56" y="7.62" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB4"/>
+<wire x1="116.84" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
+<label x="119.38" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TINY03" class="0">
@@ -8026,6 +8008,11 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <wire x1="167.64" y1="5.08" x2="170.18" y2="5.08" width="0.1524" layer="91"/>
 <junction x="167.64" y="5.08"/>
 <label x="162.56" y="5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB3"/>
+<wire x1="116.84" y1="7.62" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
+<label x="119.38" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TINYRST" class="0">
@@ -8041,14 +8028,19 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <label x="162.56" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ2" gate="1" pin="1"/>
+<pinref part="ICP_FOR_SMALL" gate="1" pin="1"/>
 <wire x1="220.98" y1="43.18" x2="218.44" y2="43.18" width="0.1524" layer="91"/>
 <label x="208.28" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ3" gate="1" pin="2"/>
+<pinref part="ARDUINO_ISP" gate="1" pin="2"/>
 <wire x1="231.14" y1="35.56" x2="233.68" y2="35.56" width="0.1524" layer="91"/>
 <label x="233.68" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="NRES/PB5"/>
+<wire x1="116.84" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
+<label x="119.38" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AVRRST" class="0">
@@ -8058,12 +8050,12 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <label x="218.44" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="1" pin="2"/>
+<pinref part="ICP_FOR_BIG" gate="1" pin="2"/>
 <wire x1="231.14" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="233.68" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ2" gate="1" pin="2"/>
+<pinref part="ICP_FOR_SMALL" gate="1" pin="2"/>
 <wire x1="231.14" y1="43.18" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
 <label x="233.68" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
