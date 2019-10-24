@@ -171,6 +171,10 @@
 <text x="24.13" y="11.43" size="0.762" layer="25" rot="R90">SHFT_OUT_SIGNAL_01</text>
 <text x="66.04" y="12.7" size="0.762" layer="25" rot="R90">SHFT_OUT_SIGNAL_16</text>
 <text x="67.31" y="7.62" size="0.762" layer="25" rot="R90">TLC_OUT_SIGNAL_16</text>
+<text x="1.27" y="93.98" size="1.016" layer="25">TLC
+CHAIN</text>
+<text x="96.52" y="11.43" size="1.016" layer="25">GND</text>
+<text x="99.568" y="12.573" size="1.016" layer="26" rot="MR0">GND</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -2794,27 +2798,21 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="88.5444" y="82.0674" size="0.9906" layer="27" ratio="10"/>
 </element>
 <element name="TLC_CHAIN_1_2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="3.81" y="92.71" smashed="yes">
-<attribute name="NAME" x="2.159" y="93.853" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="4.2101" y="92.71" size="0.02" layer="27"/>
 </element>
 <element name="TLC_CHAIN_1_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="3.81" y="97.79" smashed="yes">
-<attribute name="NAME" x="2.159" y="98.933" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="4.2101" y="97.79" size="0.02" layer="27"/>
 </element>
 <element name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="59.69" y="2.54" smashed="yes">
-<attribute name="NAME" x="58.42" y="3.937" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="58.42" y="0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J21" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="59.69" y="5.08" smashed="yes">
-<attribute name="NAME" x="58.42" y="6.477" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="58.42" y="3.048" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J22" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="19.05" y="5.08" smashed="yes">
-<attribute name="NAME" x="17.78" y="6.477" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="17.78" y="3.048" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J23" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="19.05" y="2.54" smashed="yes">
-<attribute name="NAME" x="17.78" y="3.937" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="17.78" y="0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="OUT_PWR_TO_12V_1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="85.09" y="11.43" smashed="yes" rot="R90">
@@ -3134,11 +3132,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="77.0699" y="80.01" size="0.02" layer="28" rot="MR0"/>
 </element>
 <element name="J24" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="5.08" y="86.36" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.477" y="87.63" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="3.048" y="87.63" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J25" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="2.54" y="86.36" smashed="yes" rot="R270">
-<attribute name="NAME" x="3.937" y="87.63" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="0.508" y="87.63" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J26" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="2.54" y="45.72" smashed="yes" rot="R270">
@@ -3146,7 +3142,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="0.508" y="46.99" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J27" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="5.08" y="45.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.477" y="46.99" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="3.048" y="46.99" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J35" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="7.874" y="95.123" smashed="yes">
@@ -3154,15 +3149,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="6.604" y="93.091" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J36" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="7.874" y="97.917" smashed="yes">
-<attribute name="NAME" x="6.604" y="99.314" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="6.604" y="95.885" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J37" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="49.911" y="97.917" smashed="yes">
-<attribute name="NAME" x="48.641" y="99.314" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="48.641" y="95.885" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J38" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="49.911" y="95.123" smashed="yes">
-<attribute name="NAME" x="48.641" y="96.52" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="48.641" y="93.091" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J39" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X16" package3d_urn="urn:adsk.eagle:package:38258/1" value="" x="25.4" y="8.89" smashed="yes">
@@ -3294,7 +3286,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.8301" y="2.54" size="0.02" layer="27"/>
 </element>
 <element name="J43" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="SCREWTERMINAL-5MM-2" package3d_urn="urn:adsk.eagle:package:38044/1" value="" x="95.25" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.71" y="11.43" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="SF_SKU" value="PRT-08432" x="95.25" y="12.7" size="0.3048" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="93.98" y="11.43" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
@@ -4213,7 +4204,11 @@ design rules under a new name.</description>
 <contactref element="J21" pad="14"/>
 <contactref element="TLC_TO_SIGNAL_10" pad="2"/>
 <contactref element="SHFT_TO_SIGNAL_10" pad="1"/>
-<wire x1="8.89" y1="91.44" x2="55.88" y2="91.44" width="0" layer="19" extent="1-1"/>
+<contactref element="J35" pad="14"/>
+<contactref element="J36" pad="14"/>
+<wire x1="40.894" y1="95.123" x2="55.88" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="40.894" y1="97.917" x2="40.894" y2="95.123" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="91.44" x2="40.894" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="14.478" y1="2.54" x2="8.89" y2="91.44" width="0" layer="19" extent="1-1"/>
 <wire x1="16.002" y1="2.54" x2="14.478" y2="2.54" width="0" layer="19" extent="1-16"/>
 <wire x1="92.71" y1="2.54" x2="16.002" y2="2.54" width="0" layer="19" extent="16-16"/>
@@ -4226,7 +4221,11 @@ design rules under a new name.</description>
 <contactref element="J21" pad="15"/>
 <contactref element="TLC_TO_SIGNAL_11" pad="2"/>
 <contactref element="SHFT_TO_SIGNAL_11" pad="1"/>
-<wire x1="8.89" y1="88.9" x2="53.34" y2="91.44" width="0" layer="19" extent="1-1"/>
+<contactref element="J35" pad="15"/>
+<contactref element="J36" pad="15"/>
+<wire x1="43.434" y1="95.123" x2="53.34" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="43.434" y1="97.917" x2="43.434" y2="95.123" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="88.9" x2="43.434" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.382" y1="5.08" x2="8.89" y2="88.9" width="0" layer="19" extent="16-16"/>
 <wire x1="6.858" y1="5.08" x2="8.382" y2="5.08" width="0" layer="19" extent="1-16"/>
 <wire x1="95.25" y1="5.08" x2="8.382" y2="5.08" width="0" layer="19" extent="16-16"/>
@@ -4239,7 +4238,11 @@ design rules under a new name.</description>
 <contactref element="J21" pad="16"/>
 <contactref element="TLC_TO_SIGNAL_12" pad="2"/>
 <contactref element="SHFT_TO_SIGNAL_12" pad="1"/>
-<wire x1="8.89" y1="86.36" x2="50.8" y2="91.44" width="0" layer="19" extent="1-1"/>
+<contactref element="J35" pad="16"/>
+<contactref element="J36" pad="16"/>
+<wire x1="45.974" y1="95.123" x2="50.8" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="45.974" y1="97.917" x2="45.974" y2="95.123" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="86.36" x2="45.974" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="10.668" y1="5.08" x2="8.89" y2="86.36" width="0" layer="19" extent="1-1"/>
 <wire x1="12.192" y1="5.08" x2="10.668" y2="5.08" width="0" layer="19" extent="1-16"/>
 <wire x1="97.79" y1="5.08" x2="12.192" y2="5.08" width="0" layer="19" extent="16-16"/>
@@ -4252,6 +4255,10 @@ design rules under a new name.</description>
 <contactref element="J23" pad="2"/>
 <contactref element="TLC_TO_SIGNAL_13" pad="2"/>
 <contactref element="SHFT_TO_SIGNAL_13" pad="1"/>
+<contactref element="J37" pad="2"/>
+<contactref element="J38" pad="2"/>
+<wire x1="52.451" y1="95.123" x2="52.451" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="91.44" x2="52.451" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="83.82" x2="48.26" y2="91.44" width="0" layer="19" extent="1-1"/>
 <wire x1="14.478" y1="5.08" x2="8.89" y2="83.82" width="0" layer="19" extent="1-1"/>
 <wire x1="16.002" y1="5.08" x2="14.478" y2="5.08" width="0" layer="19" extent="1-16"/>
@@ -4265,6 +4272,10 @@ design rules under a new name.</description>
 <contactref element="J22" pad="3"/>
 <contactref element="TLC_TO_SIGNAL_14" pad="2"/>
 <contactref element="SHFT_TO_SIGNAL_14" pad="1"/>
+<contactref element="J38" pad="3"/>
+<contactref element="J37" pad="3"/>
+<wire x1="54.991" y1="95.123" x2="54.991" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="91.44" x2="54.991" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="81.28" x2="45.72" y2="91.44" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="5.08" x2="8.89" y2="81.28" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="2.54" x2="24.13" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4278,6 +4289,10 @@ design rules under a new name.</description>
 <contactref element="J22" pad="4"/>
 <contactref element="TLC_TO_SIGNAL_15" pad="2"/>
 <contactref element="SHFT_TO_SIGNAL_15" pad="1"/>
+<contactref element="J38" pad="4"/>
+<contactref element="J37" pad="4"/>
+<wire x1="57.531" y1="95.123" x2="57.531" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="91.44" x2="57.531" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="78.74" x2="43.18" y2="91.44" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="5.08" x2="8.89" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="2.54" x2="26.67" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4291,6 +4306,10 @@ design rules under a new name.</description>
 <contactref element="J22" pad="6"/>
 <contactref element="TLC_TO_SIGNAL_16" pad="2"/>
 <contactref element="SHFT_TO_SIGNAL_16" pad="1"/>
+<contactref element="J38" pad="6"/>
+<contactref element="J37" pad="6"/>
+<wire x1="62.611" y1="95.123" x2="62.611" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="83.82" x2="62.611" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="76.2" x2="43.18" y2="83.82" width="0" layer="19" extent="1-1"/>
 <wire x1="10.668" y1="2.54" x2="8.89" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="12.192" y1="2.54" x2="10.668" y2="2.54" width="0" layer="19" extent="1-16"/>
@@ -4302,6 +4321,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="28"/>
 <contactref element="J22" pad="7"/>
 <contactref element="J23" pad="7"/>
+<contactref element="J37" pad="7"/>
+<contactref element="J38" pad="7"/>
+<wire x1="65.151" y1="95.123" x2="65.151" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="78.74" x2="65.151" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="45.72" x2="20.32" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="34.29" y1="5.08" x2="16.51" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="34.29" y1="2.54" x2="34.29" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4311,6 +4334,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="1"/>
 <contactref element="J23" pad="8"/>
 <contactref element="J22" pad="8"/>
+<contactref element="J38" pad="8"/>
+<contactref element="J37" pad="8"/>
+<wire x1="67.691" y1="95.123" x2="67.691" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="78.74" x2="67.691" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="48.26" x2="12.7" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="36.83" y1="5.08" x2="8.89" y2="48.26" width="0" layer="19" extent="1-1"/>
 <wire x1="36.83" y1="2.54" x2="36.83" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4320,6 +4347,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="2"/>
 <contactref element="J23" pad="10"/>
 <contactref element="J22" pad="10"/>
+<contactref element="J38" pad="10"/>
+<contactref element="J37" pad="10"/>
+<wire x1="72.771" y1="95.123" x2="72.771" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="76.2" x2="72.771" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="45.72" x2="12.7" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="41.91" y1="5.08" x2="8.89" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="41.91" y1="2.54" x2="41.91" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4329,6 +4360,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="3"/>
 <contactref element="J23" pad="11"/>
 <contactref element="J22" pad="11"/>
+<contactref element="J38" pad="11"/>
+<contactref element="J37" pad="11"/>
+<wire x1="75.311" y1="95.123" x2="75.311" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="73.66" x2="75.311" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="43.18" x2="12.7" y2="73.66" width="0" layer="19" extent="1-1"/>
 <wire x1="44.45" y1="5.08" x2="8.89" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="44.45" y1="2.54" x2="44.45" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4338,6 +4373,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="4"/>
 <contactref element="J22" pad="12"/>
 <contactref element="J23" pad="12"/>
+<contactref element="J37" pad="12"/>
+<contactref element="J38" pad="12"/>
+<wire x1="77.851" y1="95.123" x2="77.851" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="71.12" x2="77.851" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="40.64" x2="12.7" y2="71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="46.99" y1="5.08" x2="8.89" y2="40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="46.99" y1="2.54" x2="46.99" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4347,6 +4386,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="5"/>
 <contactref element="J22" pad="14"/>
 <contactref element="J23" pad="14"/>
+<contactref element="J37" pad="14"/>
+<contactref element="J38" pad="14"/>
+<wire x1="82.931" y1="95.123" x2="82.931" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="68.58" x2="82.931" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="38.1" x2="12.7" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="52.07" y1="5.08" x2="8.89" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="52.07" y1="2.54" x2="52.07" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4356,6 +4399,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="6"/>
 <contactref element="J22" pad="15"/>
 <contactref element="J23" pad="15"/>
+<contactref element="J37" pad="15"/>
+<contactref element="J38" pad="15"/>
+<wire x1="85.471" y1="95.123" x2="85.471" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="66.04" x2="85.471" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="35.56" x2="12.7" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="54.61" y1="5.08" x2="8.89" y2="35.56" width="0" layer="19" extent="1-1"/>
 <wire x1="54.61" y1="2.54" x2="54.61" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4365,6 +4412,10 @@ design rules under a new name.</description>
 <contactref element="TLC_2" pad="7"/>
 <contactref element="J22" pad="16"/>
 <contactref element="J23" pad="16"/>
+<contactref element="J37" pad="16"/>
+<contactref element="J38" pad="16"/>
+<wire x1="88.011" y1="95.123" x2="88.011" y2="97.917" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="63.5" x2="88.011" y2="95.123" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="33.02" x2="12.7" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="57.15" y1="5.08" x2="8.89" y2="33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="57.15" y1="2.54" x2="57.15" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -4976,46 +5027,6 @@ design rules under a new name.</description>
 <wire x1="73.66" y1="12.7" x2="69.85" y2="18.288" width="0" layer="19" extent="1-1"/>
 <wire x1="73.66" y1="8.89" x2="73.66" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="OUT_FINAL_10">
-<contactref element="J35" pad="14"/>
-<contactref element="J36" pad="14"/>
-<wire x1="40.894" y1="97.917" x2="40.894" y2="95.123" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_11">
-<contactref element="J35" pad="15"/>
-<contactref element="J36" pad="15"/>
-<wire x1="43.434" y1="95.123" x2="43.434" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_12">
-<contactref element="J35" pad="16"/>
-<contactref element="J36" pad="16"/>
-<wire x1="45.974" y1="95.123" x2="45.974" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_13">
-<contactref element="J37" pad="2"/>
-<contactref element="J38" pad="2"/>
-<wire x1="52.451" y1="95.123" x2="52.451" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_14">
-<contactref element="J38" pad="3"/>
-<contactref element="J37" pad="3"/>
-<wire x1="54.991" y1="95.123" x2="54.991" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_15">
-<contactref element="J38" pad="4"/>
-<contactref element="J37" pad="4"/>
-<wire x1="57.531" y1="95.123" x2="57.531" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_17">
-<contactref element="J37" pad="7"/>
-<contactref element="J38" pad="7"/>
-<wire x1="65.151" y1="95.123" x2="65.151" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_18">
-<contactref element="J38" pad="8"/>
-<contactref element="J37" pad="8"/>
-<wire x1="67.691" y1="95.123" x2="67.691" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="GENERAL_MCU_PIN_0">
 <contactref element="D11_TINY0_GEN_0" pad="2"/>
 <contactref element="GEN_0_TO_SHFT_SER_IN" pad="1"/>
@@ -5068,41 +5079,6 @@ design rules under a new name.</description>
 <wire x1="83.82" y1="71.12" x2="12.954" y2="97.917" width="0" layer="19" extent="1-1"/>
 <wire x1="80.01" y1="67.31" x2="83.82" y2="71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="95.758" y1="71.12" x2="80.01" y2="67.31" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_16">
-<contactref element="J38" pad="6"/>
-<contactref element="J37" pad="6"/>
-<wire x1="62.611" y1="95.123" x2="62.611" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_19">
-<contactref element="J38" pad="10"/>
-<contactref element="J37" pad="10"/>
-<wire x1="72.771" y1="95.123" x2="72.771" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_20">
-<contactref element="J38" pad="11"/>
-<contactref element="J37" pad="11"/>
-<wire x1="75.311" y1="95.123" x2="75.311" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_21">
-<contactref element="J37" pad="12"/>
-<contactref element="J38" pad="12"/>
-<wire x1="77.851" y1="95.123" x2="77.851" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_22">
-<contactref element="J37" pad="14"/>
-<contactref element="J38" pad="14"/>
-<wire x1="82.931" y1="95.123" x2="82.931" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_23">
-<contactref element="J37" pad="15"/>
-<contactref element="J38" pad="15"/>
-<wire x1="85.471" y1="95.123" x2="85.471" y2="97.917" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OUT_FINAL_24">
-<contactref element="J37" pad="16"/>
-<contactref element="J38" pad="16"/>
-<wire x1="88.011" y1="95.123" x2="88.011" y2="97.917" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TLC_OUT_SIGNAL_01">
 <contactref element="TLC_TO_SIGNAL_01" pad="1"/>
@@ -5342,6 +5318,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

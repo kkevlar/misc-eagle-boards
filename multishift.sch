@@ -15720,8 +15720,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="SHFT_TO_SIGNAL_16" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="J43" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="5MM" package3d_urn="urn:adsk.eagle:package:38044/1"/>
 <part name="J44" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="5MM" package3d_urn="urn:adsk.eagle:package:38044/1"/>
-<part name="J45" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="5MM" package3d_urn="urn:adsk.eagle:package:38044/1"/>
-<part name="J46" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="5MM" package3d_urn="urn:adsk.eagle:package:38044/1"/>
 <part name="OUT_PWR_TO_VIN" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
 <sheets>
@@ -16485,14 +16483,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="VALUE" x="424.18" y="175.514" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="424.18" y="185.928" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J45" gate="G$1" x="436.88" y="180.34" smashed="yes">
-<attribute name="VALUE" x="434.34" y="175.514" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="434.34" y="185.928" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J46" gate="G$1" x="447.04" y="180.34" smashed="yes">
-<attribute name="VALUE" x="444.5" y="175.514" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="444.5" y="185.928" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="OUT_PWR_TO_VIN" gate="1" x="426.72" y="170.18" smashed="yes">
 <attribute name="NAME" x="424.18" y="172.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="424.18" y="166.37" size="1.778" layer="96"/>
@@ -16703,14 +16693,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="J43" gate="G$1" pin="1"/>
 <pinref part="J44" gate="G$1" pin="1"/>
 <wire x1="424.18" y1="180.34" x2="434.34" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="J45" gate="G$1" pin="1"/>
-<wire x1="434.34" y1="180.34" x2="444.5" y2="180.34" width="0.1524" layer="91"/>
 <junction x="434.34" y="180.34"/>
-<pinref part="J46" gate="G$1" pin="1"/>
-<wire x1="444.5" y1="180.34" x2="454.66" y2="180.34" width="0.1524" layer="91"/>
-<junction x="444.5" y="180.34"/>
-<wire x1="454.66" y1="180.34" x2="457.2" y2="180.34" width="0.1524" layer="91"/>
-<junction x="454.66" y="180.34"/>
+<wire x1="434.34" y1="180.34" x2="457.2" y2="180.34" width="0.1524" layer="91"/>
 <label x="457.2" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -18028,16 +18012,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_01" class="0">
 <segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QA"/>
-<wire x1="340.36" y1="45.72" x2="342.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="342.9" y="45.72" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT0"/>
-<wire x1="347.98" y1="218.44" x2="350.52" y2="218.44" width="0.1524" layer="91"/>
-<label x="350.52" y="218.44" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="G$1" pin="2"/>
 <pinref part="J21" gate="G$1" pin="2"/>
 <wire x1="533.4" y1="177.8" x2="543.56" y2="177.8" width="0.1524" layer="91"/>
@@ -18062,16 +18036,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 </net>
 <net name="OUT_SIGNAL_02" class="0">
-<segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QB"/>
-<wire x1="340.36" y1="43.18" x2="342.9" y2="43.18" width="0.1524" layer="91"/>
-<label x="342.9" y="43.18" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT1"/>
-<wire x1="347.98" y1="215.9" x2="350.52" y2="215.9" width="0.1524" layer="91"/>
-<label x="350.52" y="215.9" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J20" gate="G$1" pin="3"/>
 <pinref part="J21" gate="G$1" pin="3"/>
@@ -18098,16 +18062,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_03" class="0">
 <segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QC"/>
-<wire x1="340.36" y1="40.64" x2="342.9" y2="40.64" width="0.1524" layer="91"/>
-<label x="342.9" y="40.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT2"/>
-<wire x1="347.98" y1="213.36" x2="350.52" y2="213.36" width="0.1524" layer="91"/>
-<label x="350.52" y="213.36" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="G$1" pin="4"/>
 <pinref part="J21" gate="G$1" pin="4"/>
 <wire x1="533.4" y1="182.88" x2="543.56" y2="182.88" width="0.1524" layer="91"/>
@@ -18132,16 +18086,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 </net>
 <net name="OUT_SIGNAL_04" class="0">
-<segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QD"/>
-<wire x1="340.36" y1="38.1" x2="342.9" y2="38.1" width="0.1524" layer="91"/>
-<label x="342.9" y="38.1" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT3"/>
-<wire x1="347.98" y1="210.82" x2="350.52" y2="210.82" width="0.1524" layer="91"/>
-<label x="350.52" y="210.82" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J20" gate="G$1" pin="6"/>
 <pinref part="J21" gate="G$1" pin="6"/>
@@ -18168,16 +18112,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_05" class="0">
 <segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QE"/>
-<wire x1="340.36" y1="35.56" x2="342.9" y2="35.56" width="0.1524" layer="91"/>
-<label x="342.9" y="35.56" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT4"/>
-<wire x1="347.98" y1="208.28" x2="350.52" y2="208.28" width="0.1524" layer="91"/>
-<label x="350.52" y="208.28" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="G$1" pin="7"/>
 <pinref part="J21" gate="G$1" pin="7"/>
 <wire x1="533.4" y1="190.5" x2="543.56" y2="190.5" width="0.1524" layer="91"/>
@@ -18202,16 +18136,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 </net>
 <net name="OUT_SIGNAL_06" class="0">
-<segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QF"/>
-<wire x1="340.36" y1="33.02" x2="342.9" y2="33.02" width="0.1524" layer="91"/>
-<label x="342.9" y="33.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT5"/>
-<wire x1="347.98" y1="205.74" x2="350.52" y2="205.74" width="0.1524" layer="91"/>
-<label x="350.52" y="205.74" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J20" gate="G$1" pin="8"/>
 <pinref part="J21" gate="G$1" pin="8"/>
@@ -18238,16 +18162,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_07" class="0">
 <segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QG"/>
-<wire x1="340.36" y1="30.48" x2="342.9" y2="30.48" width="0.1524" layer="91"/>
-<label x="342.9" y="30.48" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT6"/>
-<wire x1="347.98" y1="203.2" x2="350.52" y2="203.2" width="0.1524" layer="91"/>
-<label x="350.52" y="203.2" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="G$1" pin="10"/>
 <pinref part="J21" gate="G$1" pin="10"/>
 <wire x1="533.4" y1="198.12" x2="543.56" y2="198.12" width="0.1524" layer="91"/>
@@ -18272,16 +18186,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 </net>
 <net name="OUT_SIGNAL_08" class="0">
-<segment>
-<pinref part="SHFT_REG_1" gate="A" pin="QH"/>
-<wire x1="340.36" y1="27.94" x2="342.9" y2="27.94" width="0.1524" layer="91"/>
-<label x="342.9" y="27.94" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT7"/>
-<wire x1="350.52" y1="200.66" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
-<label x="350.52" y="200.66" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J20" gate="G$1" pin="11"/>
 <pinref part="J21" gate="G$1" pin="11"/>
@@ -18308,16 +18212,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_09" class="0">
 <segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QA"/>
-<wire x1="340.36" y1="10.16" x2="342.9" y2="10.16" width="0.1524" layer="91"/>
-<label x="342.9" y="10.16" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT8"/>
-<wire x1="347.98" y1="198.12" x2="350.52" y2="198.12" width="0.1524" layer="91"/>
-<label x="350.52" y="198.12" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="G$1" pin="12"/>
 <pinref part="J21" gate="G$1" pin="12"/>
 <wire x1="533.4" y1="203.2" x2="543.56" y2="203.2" width="0.1524" layer="91"/>
@@ -18343,16 +18237,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_10" class="0">
 <segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QB"/>
-<wire x1="340.36" y1="7.62" x2="342.9" y2="7.62" width="0.1524" layer="91"/>
-<label x="342.9" y="7.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT9"/>
-<wire x1="347.98" y1="195.58" x2="350.52" y2="195.58" width="0.1524" layer="91"/>
-<label x="350.52" y="195.58" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="G$1" pin="14"/>
 <pinref part="J21" gate="G$1" pin="14"/>
 <wire x1="533.4" y1="208.28" x2="543.56" y2="208.28" width="0.1524" layer="91"/>
@@ -18367,70 +18251,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="657.86" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="408.94" y1="129.54" x2="421.64" y2="129.54" width="0.1524" layer="91"/>
-<label x="396.24" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="124.46" x2="421.64" y2="124.46" width="0.1524" layer="91"/>
-<label x="396.24" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="139.7" x2="421.64" y2="139.7" width="0.1524" layer="91"/>
-<label x="396.24" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="134.62" x2="421.64" y2="134.62" width="0.1524" layer="91"/>
-<label x="396.24" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="149.86" x2="421.64" y2="149.86" width="0.1524" layer="91"/>
-<label x="396.24" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="144.78" x2="421.64" y2="144.78" width="0.1524" layer="91"/>
-<label x="396.24" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="160.02" x2="421.64" y2="160.02" width="0.1524" layer="91"/>
-<label x="396.24" y="160.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="154.94" x2="421.64" y2="154.94" width="0.1524" layer="91"/>
-<label x="396.24" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="88.9" x2="421.64" y2="88.9" width="0.1524" layer="91"/>
-<label x="396.24" y="88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="83.82" x2="421.64" y2="83.82" width="0.1524" layer="91"/>
-<label x="396.24" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="99.06" x2="421.64" y2="99.06" width="0.1524" layer="91"/>
-<label x="396.24" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="93.98" x2="421.64" y2="93.98" width="0.1524" layer="91"/>
-<label x="396.24" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="109.22" x2="421.64" y2="109.22" width="0.1524" layer="91"/>
-<label x="396.24" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="104.14" x2="421.64" y2="104.14" width="0.1524" layer="91"/>
-<label x="396.24" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="119.38" x2="421.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="396.24" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="408.94" y1="114.3" x2="421.64" y2="114.3" width="0.1524" layer="91"/>
-<label x="396.24" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J35" gate="G$1" pin="14"/>
 <pinref part="J36" gate="G$1" pin="14"/>
 <wire x1="609.6" y1="208.28" x2="619.76" y2="208.28" width="0.1524" layer="91"/>
@@ -18440,16 +18260,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 </net>
 <net name="OUT_SIGNAL_11" class="0">
-<segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QC"/>
-<wire x1="340.36" y1="5.08" x2="342.9" y2="5.08" width="0.1524" layer="91"/>
-<label x="342.9" y="5.08" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT10"/>
-<wire x1="347.98" y1="193.04" x2="350.52" y2="193.04" width="0.1524" layer="91"/>
-<label x="350.52" y="193.04" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J20" gate="G$1" pin="15"/>
 <pinref part="J21" gate="G$1" pin="15"/>
@@ -18475,16 +18285,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_12" class="0">
 <segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QD"/>
-<wire x1="340.36" y1="2.54" x2="342.9" y2="2.54" width="0.1524" layer="91"/>
-<label x="342.9" y="2.54" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT11"/>
-<wire x1="347.98" y1="190.5" x2="350.52" y2="190.5" width="0.1524" layer="91"/>
-<label x="350.52" y="190.5" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="G$1" pin="16"/>
 <pinref part="J21" gate="G$1" pin="16"/>
 <wire x1="533.4" y1="213.36" x2="543.56" y2="213.36" width="0.1524" layer="91"/>
@@ -18508,16 +18308,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 </net>
 <net name="OUT_SIGNAL_13" class="0">
-<segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QE"/>
-<wire x1="340.36" y1="0" x2="342.9" y2="0" width="0.1524" layer="91"/>
-<label x="342.9" y="0" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT12"/>
-<wire x1="347.98" y1="187.96" x2="350.52" y2="187.96" width="0.1524" layer="91"/>
-<label x="353.06" y="187.96" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J22" gate="G$1" pin="2"/>
 <pinref part="J23" gate="G$1" pin="2"/>
@@ -18543,16 +18333,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_14" class="0">
 <segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QF"/>
-<wire x1="340.36" y1="-2.54" x2="342.9" y2="-2.54" width="0.1524" layer="91"/>
-<label x="342.9" y="-2.54" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT13"/>
-<wire x1="347.98" y1="185.42" x2="350.52" y2="185.42" width="0.1524" layer="91"/>
-<label x="350.52" y="185.42" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J23" gate="G$1" pin="3"/>
 <wire x1="546.1" y1="124.46" x2="543.56" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J22" gate="G$1" pin="3"/>
@@ -18577,16 +18357,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="OUT_SIGNAL_15" class="0">
 <segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QG"/>
-<wire x1="340.36" y1="-5.08" x2="342.9" y2="-5.08" width="0.1524" layer="91"/>
-<label x="342.9" y="-5.08" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT14"/>
-<wire x1="347.98" y1="182.88" x2="350.52" y2="182.88" width="0.1524" layer="91"/>
-<label x="350.52" y="182.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J23" gate="G$1" pin="4"/>
 <wire x1="546.1" y1="127" x2="543.56" y2="127" width="0.1524" layer="91"/>
 <pinref part="J22" gate="G$1" pin="4"/>
@@ -18610,16 +18380,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 </net>
 <net name="OUT_SIGNAL_16" class="0">
-<segment>
-<pinref part="SHFT_REG_2" gate="A" pin="QH"/>
-<wire x1="340.36" y1="-7.62" x2="342.9" y2="-7.62" width="0.1524" layer="91"/>
-<label x="342.9" y="-7.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TLC_1" gate="G$1" pin="OUT15"/>
-<wire x1="347.98" y1="180.34" x2="350.52" y2="180.34" width="0.1524" layer="91"/>
-<label x="350.52" y="180.34" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J23" gate="G$1" pin="6"/>
 <wire x1="546.1" y1="132.08" x2="543.56" y2="132.08" width="0.1524" layer="91"/>
@@ -19835,14 +19595,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="J43" gate="G$1" pin="2"/>
 <pinref part="J44" gate="G$1" pin="2"/>
 <wire x1="424.18" y1="182.88" x2="434.34" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="J45" gate="G$1" pin="2"/>
-<wire x1="434.34" y1="182.88" x2="444.5" y2="182.88" width="0.1524" layer="91"/>
 <junction x="434.34" y="182.88"/>
-<pinref part="J46" gate="G$1" pin="2"/>
-<wire x1="444.5" y1="182.88" x2="454.66" y2="182.88" width="0.1524" layer="91"/>
-<junction x="444.5" y="182.88"/>
-<wire x1="454.66" y1="182.88" x2="457.2" y2="182.88" width="0.1524" layer="91"/>
-<junction x="454.66" y="182.88"/>
+<wire x1="434.34" y1="182.88" x2="457.2" y2="182.88" width="0.1524" layer="91"/>
 <label x="457.2" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -20154,72 +19908,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="622.3" y="203.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="OUT_FINAL_10" class="0">
-<segment>
-<wire x1="426.72" y1="129.54" x2="441.96" y2="129.54" width="0.1524" layer="91"/>
-<label x="439.42" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="124.46" x2="441.96" y2="124.46" width="0.1524" layer="91"/>
-<label x="439.42" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="139.7" x2="441.96" y2="139.7" width="0.1524" layer="91"/>
-<label x="439.42" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="134.62" x2="441.96" y2="134.62" width="0.1524" layer="91"/>
-<label x="439.42" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="149.86" x2="441.96" y2="149.86" width="0.1524" layer="91"/>
-<label x="439.42" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="144.78" x2="441.96" y2="144.78" width="0.1524" layer="91"/>
-<label x="439.42" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="160.02" x2="441.96" y2="160.02" width="0.1524" layer="91"/>
-<label x="439.42" y="160.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="154.94" x2="441.96" y2="154.94" width="0.1524" layer="91"/>
-<label x="439.42" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="88.9" x2="441.96" y2="88.9" width="0.1524" layer="91"/>
-<label x="439.42" y="88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="83.82" x2="441.96" y2="83.82" width="0.1524" layer="91"/>
-<label x="439.42" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="99.06" x2="441.96" y2="99.06" width="0.1524" layer="91"/>
-<label x="439.42" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="93.98" x2="441.96" y2="93.98" width="0.1524" layer="91"/>
-<label x="439.42" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="109.22" x2="441.96" y2="109.22" width="0.1524" layer="91"/>
-<label x="439.42" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="104.14" x2="441.96" y2="104.14" width="0.1524" layer="91"/>
-<label x="439.42" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="119.38" x2="441.96" y2="119.38" width="0.1524" layer="91"/>
-<label x="439.42" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="426.72" y1="114.3" x2="441.96" y2="114.3" width="0.1524" layer="91"/>
-<label x="439.42" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GENERAL_MCU_PIN_0" class="0">
 <segment>
 <pinref part="D11_TINY0_GEN_0" gate="1" pin="2"/>
@@ -20357,6 +20045,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="15.24"/>
 <label x="426.72" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT0"/>
+<wire x1="347.98" y1="218.44" x2="350.52" y2="218.44" width="0.1524" layer="91"/>
+<label x="350.52" y="218.44" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_01" class="0">
 <segment>
@@ -20371,6 +20064,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="15.24" x2="485.14" y2="15.24" width="0.1524" layer="91"/>
 <junction x="482.6" y="15.24"/>
 <label x="485.14" y="15.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QA"/>
+<wire x1="340.36" y1="45.72" x2="342.9" y2="45.72" width="0.1524" layer="91"/>
+<label x="342.9" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_02" class="0">
@@ -20387,6 +20085,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="17.78"/>
 <label x="426.72" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT1"/>
+<wire x1="347.98" y1="215.9" x2="350.52" y2="215.9" width="0.1524" layer="91"/>
+<label x="350.52" y="215.9" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TLC_OUT_SIGNAL_03" class="0">
 <segment>
@@ -20401,6 +20104,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="424.18" y1="20.32" x2="426.72" y2="20.32" width="0.1524" layer="91"/>
 <junction x="424.18" y="20.32"/>
 <label x="426.72" y="20.32" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT2"/>
+<wire x1="347.98" y1="213.36" x2="350.52" y2="213.36" width="0.1524" layer="91"/>
+<label x="350.52" y="213.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_04" class="0">
@@ -20417,6 +20125,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="22.86"/>
 <label x="426.72" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT3"/>
+<wire x1="347.98" y1="210.82" x2="350.52" y2="210.82" width="0.1524" layer="91"/>
+<label x="350.52" y="210.82" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TLC_OUT_SIGNAL_05" class="0">
 <segment>
@@ -20431,6 +20144,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="424.18" y1="25.4" x2="426.72" y2="25.4" width="0.1524" layer="91"/>
 <junction x="424.18" y="25.4"/>
 <label x="426.72" y="25.4" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT4"/>
+<wire x1="347.98" y1="208.28" x2="350.52" y2="208.28" width="0.1524" layer="91"/>
+<label x="350.52" y="208.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_06" class="0">
@@ -20447,6 +20165,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="27.94"/>
 <label x="426.72" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT5"/>
+<wire x1="347.98" y1="205.74" x2="350.52" y2="205.74" width="0.1524" layer="91"/>
+<label x="350.52" y="205.74" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TLC_OUT_SIGNAL_07" class="0">
 <segment>
@@ -20461,6 +20184,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="424.18" y1="30.48" x2="426.72" y2="30.48" width="0.1524" layer="91"/>
 <junction x="424.18" y="30.48"/>
 <label x="426.72" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT6"/>
+<wire x1="347.98" y1="203.2" x2="350.52" y2="203.2" width="0.1524" layer="91"/>
+<label x="350.52" y="203.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_08" class="0">
@@ -20477,6 +20205,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="33.02"/>
 <label x="426.72" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT7"/>
+<wire x1="350.52" y1="200.66" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
+<label x="350.52" y="200.66" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TLC_OUT_SIGNAL_09" class="0">
 <segment>
@@ -20491,6 +20224,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="424.18" y1="35.56" x2="426.72" y2="35.56" width="0.1524" layer="91"/>
 <junction x="424.18" y="35.56"/>
 <label x="426.72" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT8"/>
+<wire x1="347.98" y1="198.12" x2="350.52" y2="198.12" width="0.1524" layer="91"/>
+<label x="350.52" y="198.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_10" class="0">
@@ -20507,6 +20245,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="38.1"/>
 <label x="426.72" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT9"/>
+<wire x1="347.98" y1="195.58" x2="350.52" y2="195.58" width="0.1524" layer="91"/>
+<label x="350.52" y="195.58" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TLC_OUT_SIGNAL_11" class="0">
 <segment>
@@ -20521,6 +20264,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="424.18" y1="40.64" x2="426.72" y2="40.64" width="0.1524" layer="91"/>
 <junction x="424.18" y="40.64"/>
 <label x="426.72" y="40.64" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT10"/>
+<wire x1="347.98" y1="193.04" x2="350.52" y2="193.04" width="0.1524" layer="91"/>
+<label x="350.52" y="193.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_12" class="0">
@@ -20537,6 +20285,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="43.18"/>
 <label x="426.72" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT11"/>
+<wire x1="347.98" y1="190.5" x2="350.52" y2="190.5" width="0.1524" layer="91"/>
+<label x="350.52" y="190.5" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TLC_OUT_SIGNAL_13" class="0">
 <segment>
@@ -20551,6 +20304,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="424.18" y1="45.72" x2="429.26" y2="45.72" width="0.1524" layer="91"/>
 <junction x="424.18" y="45.72"/>
 <label x="426.72" y="45.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT12"/>
+<wire x1="347.98" y1="187.96" x2="350.52" y2="187.96" width="0.1524" layer="91"/>
+<label x="353.06" y="187.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_14" class="0">
@@ -20567,6 +20325,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="48.26"/>
 <label x="426.72" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT13"/>
+<wire x1="347.98" y1="185.42" x2="350.52" y2="185.42" width="0.1524" layer="91"/>
+<label x="350.52" y="185.42" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TLC_OUT_SIGNAL_15" class="0">
 <segment>
@@ -20581,6 +20344,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="424.18" y1="50.8" x2="426.72" y2="50.8" width="0.1524" layer="91"/>
 <junction x="424.18" y="50.8"/>
 <label x="426.72" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT14"/>
+<wire x1="347.98" y1="182.88" x2="350.52" y2="182.88" width="0.1524" layer="91"/>
+<label x="350.52" y="182.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TLC_OUT_SIGNAL_16" class="0">
@@ -20597,6 +20365,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="424.18" y="53.34"/>
 <label x="426.72" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TLC_1" gate="G$1" pin="OUT15"/>
+<wire x1="347.98" y1="180.34" x2="350.52" y2="180.34" width="0.1524" layer="91"/>
+<label x="350.52" y="180.34" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_02" class="0">
 <segment>
@@ -20611,6 +20384,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="485.14" y1="17.78" x2="482.6" y2="17.78" width="0.1524" layer="91"/>
 <junction x="482.6" y="17.78"/>
 <label x="485.14" y="17.78" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QB"/>
+<wire x1="340.36" y1="43.18" x2="342.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="342.9" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_03" class="0">
@@ -20627,6 +20405,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="482.6" y="20.32"/>
 <label x="485.14" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QC"/>
+<wire x1="340.36" y1="40.64" x2="342.9" y2="40.64" width="0.1524" layer="91"/>
+<label x="342.9" y="40.64" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_04" class="0">
 <segment>
@@ -20641,6 +20424,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="22.86" x2="485.14" y2="22.86" width="0.1524" layer="91"/>
 <junction x="482.6" y="22.86"/>
 <label x="485.14" y="22.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QD"/>
+<wire x1="340.36" y1="38.1" x2="342.9" y2="38.1" width="0.1524" layer="91"/>
+<label x="342.9" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_05" class="0">
@@ -20657,6 +20445,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="482.6" y="25.4"/>
 <label x="485.14" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QE"/>
+<wire x1="340.36" y1="35.56" x2="342.9" y2="35.56" width="0.1524" layer="91"/>
+<label x="342.9" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_06" class="0">
 <segment>
@@ -20671,6 +20464,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="27.94" x2="485.14" y2="27.94" width="0.1524" layer="91"/>
 <junction x="482.6" y="27.94"/>
 <label x="485.14" y="27.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QF"/>
+<wire x1="340.36" y1="33.02" x2="342.9" y2="33.02" width="0.1524" layer="91"/>
+<label x="342.9" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_07" class="0">
@@ -20687,6 +20485,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="482.6" y="30.48"/>
 <label x="485.14" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QG"/>
+<wire x1="340.36" y1="30.48" x2="342.9" y2="30.48" width="0.1524" layer="91"/>
+<label x="342.9" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_08" class="0">
 <segment>
@@ -20701,6 +20504,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="33.02" x2="485.14" y2="33.02" width="0.1524" layer="91"/>
 <junction x="482.6" y="33.02"/>
 <label x="485.14" y="33.02" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_1" gate="A" pin="QH"/>
+<wire x1="340.36" y1="27.94" x2="342.9" y2="27.94" width="0.1524" layer="91"/>
+<label x="342.9" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_09" class="0">
@@ -20717,6 +20525,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="482.6" y="35.56"/>
 <label x="485.14" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QA"/>
+<wire x1="340.36" y1="10.16" x2="342.9" y2="10.16" width="0.1524" layer="91"/>
+<label x="342.9" y="10.16" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_10" class="0">
 <segment>
@@ -20731,6 +20544,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="38.1" x2="485.14" y2="38.1" width="0.1524" layer="91"/>
 <junction x="482.6" y="38.1"/>
 <label x="485.14" y="38.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QB"/>
+<wire x1="340.36" y1="7.62" x2="342.9" y2="7.62" width="0.1524" layer="91"/>
+<label x="342.9" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_11" class="0">
@@ -20747,6 +20565,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="482.6" y="40.64"/>
 <label x="485.14" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QC"/>
+<wire x1="340.36" y1="5.08" x2="342.9" y2="5.08" width="0.1524" layer="91"/>
+<label x="342.9" y="5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_12" class="0">
 <segment>
@@ -20761,6 +20584,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="43.18" x2="485.14" y2="43.18" width="0.1524" layer="91"/>
 <junction x="482.6" y="43.18"/>
 <label x="487.68" y="43.18" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QD"/>
+<wire x1="340.36" y1="2.54" x2="342.9" y2="2.54" width="0.1524" layer="91"/>
+<label x="342.9" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_13" class="0">
@@ -20777,6 +20605,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="482.6" y="45.72"/>
 <label x="485.14" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QE"/>
+<wire x1="340.36" y1="0" x2="342.9" y2="0" width="0.1524" layer="91"/>
+<label x="342.9" y="0" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_14" class="0">
 <segment>
@@ -20791,6 +20624,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="48.26" x2="485.14" y2="48.26" width="0.1524" layer="91"/>
 <junction x="482.6" y="48.26"/>
 <label x="485.14" y="48.26" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QF"/>
+<wire x1="340.36" y1="-2.54" x2="342.9" y2="-2.54" width="0.1524" layer="91"/>
+<label x="342.9" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_15" class="0">
@@ -20807,6 +20645,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="482.6" y="50.8"/>
 <label x="485.14" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QG"/>
+<wire x1="340.36" y1="-5.08" x2="342.9" y2="-5.08" width="0.1524" layer="91"/>
+<label x="342.9" y="-5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SHFT_OUT_SIGNAL_16" class="0">
 <segment>
@@ -20821,6 +20664,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="482.6" y1="53.34" x2="485.14" y2="53.34" width="0.1524" layer="91"/>
 <junction x="482.6" y="53.34"/>
 <label x="485.14" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SHFT_REG_2" gate="A" pin="QH"/>
+<wire x1="340.36" y1="-7.62" x2="342.9" y2="-7.62" width="0.1524" layer="91"/>
+<label x="342.9" y="-7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+12V" class="0">
